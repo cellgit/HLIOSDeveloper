@@ -1,0 +1,25 @@
+//
+//  HLPrefix.pch
+//  iOSDeveloper
+//
+//  Created by 刘宏立 on 2017/5/29.
+//  Copyright © 2017年 lhl. All rights reserved.
+//
+
+#ifdef __OBJC__
+
+#import <Masonry.h>
+#import <AFNetworking.h>
+#import <YYModel.h>
+
+///定义屏幕宽度尺寸的宏 - 全局使用
+#define SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
+#define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
+//屏幕适配比例常数 - 横屏适配,例如:fitScreenWidth= 测量图像宽度*(SCREEN_WIDTH/568)
+
+#define WIDTH_SCALE (SCREEN_WIDTH/568)
+#define HEIGHT_SCALE (SCREEN_HEIGHT/320)
+//iPad屏幕适配比例常数
+//#define WIDTH_SCALE 1.5*(4/3)
+
+#endif
