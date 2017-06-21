@@ -49,6 +49,7 @@
 		F23F60581EE462E800FAE022 /* HLModalPresentAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = F23F60541EE462E800FAE022 /* HLModalPresentAnimator.m */; };
 		F23F60591EE462E800FAE022 /* HLPresentingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F23F60561EE462E800FAE022 /* HLPresentingViewController.m */; };
 		F25709881EE05EE1008362B7 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F25709871EE05EE1008362B7 /* SystemConfiguration.framework */; };
+		F2EC74CE1EFAA8ED00E12D96 /* HLUIHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F2EC74CD1EFAA8ED00E12D96 /* HLUIHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -134,6 +135,8 @@
 		F23F60551EE462E800FAE022 /* HLPresentingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLPresentingViewController.h; sourceTree = "<group>"; };
 		F23F60561EE462E800FAE022 /* HLPresentingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLPresentingViewController.m; sourceTree = "<group>"; };
 		F25709871EE05EE1008362B7 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F2EC74CC1EFAA8ED00E12D96 /* HLUIHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLUIHelper.h; sourceTree = "<group>"; };
+		F2EC74CD1EFAA8ED00E12D96 /* HLUIHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLUIHelper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -444,6 +447,8 @@
 				F2367A3E1EF82B2900196D3D /* HLUICommonDefines.h */,
 				F2367A3F1EF82B5C00196D3D /* HLUIConfiguration.h */,
 				F2367A401EF82B5C00196D3D /* HLUIConfiguration.m */,
+				F2EC74CC1EFAA8ED00E12D96 /* HLUIHelper.h */,
+				F2EC74CD1EFAA8ED00E12D96 /* HLUIHelper.m */,
 			);
 			path = UICore;
 			sourceTree = "<group>";
@@ -607,6 +612,7 @@
 				F204B5A61EEAE0DF0030CF8A /* HLPortalsDeTailsVC.m in Sources */,
 				F2344A5D1EDD4D1500B24918 /* HLHomeDetailVC.m in Sources */,
 				F204B5911EEADBB60030CF8A /* HLDemoCustomTransitionVC.m in Sources */,
+				F2EC74CE1EFAA8ED00E12D96 /* HLUIHelper.m in Sources */,
 				F204B5941EEADBB60030CF8A /* HLDemoDetailVC.m in Sources */,
 				F204B56C1EEAD5360030CF8A /* HLImagePickerController.m in Sources */,
 				F23F60591EE462E800FAE022 /* HLPresentingViewController.m in Sources */,

@@ -155,7 +155,8 @@
 #define NavigationContentStaticTop (20 + NavigationBarHeight) // 不动态从状态栏获取高度，避免来电模式下多算了20pt（来电模式下系统会把UIViewController.view的frame往下移动20pt）
 #define NavigationContentOriginY(y) (NavigationContentTop + y)
 
-// 获取一个像素(待补全...)
+// 获取一个像素(待补全...)这里QMUI用到了自己写的类
+
 
 
 
