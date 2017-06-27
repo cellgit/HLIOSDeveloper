@@ -135,6 +135,9 @@
 		F23F60551EE462E800FAE022 /* HLPresentingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLPresentingViewController.h; sourceTree = "<group>"; };
 		F23F60561EE462E800FAE022 /* HLPresentingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLPresentingViewController.m; sourceTree = "<group>"; };
 		F25709871EE05EE1008362B7 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F2D5CA141EFFC046001B4C1D /* HLUIConfigurationMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLUIConfigurationMacros.h; sourceTree = "<group>"; };
+		F2D5CA161F02AB65001B4C1D /* HLUICore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLUICore.h; sourceTree = "<group>"; };
+		F2D5CA171F02ABF5001B4C1D /* HLUIKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLUIKit.h; sourceTree = "<group>"; };
 		F2EC74CC1EFAA8ED00E12D96 /* HLUIHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLUIHelper.h; sourceTree = "<group>"; };
 		F2EC74CD1EFAA8ED00E12D96 /* HLUIHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLUIHelper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -436,6 +439,7 @@
 		F2367A3C1EF82A9500196D3D /* HLUIKit */ = {
 			isa = PBXGroup;
 			children = (
+				F2D5CA171F02ABF5001B4C1D /* HLUIKit.h */,
 				F2367A3D1EF82A9500196D3D /* UICore */,
 			);
 			path = HLUIKit;
@@ -447,6 +451,8 @@
 				F2367A3E1EF82B2900196D3D /* HLUICommonDefines.h */,
 				F2367A3F1EF82B5C00196D3D /* HLUIConfiguration.h */,
 				F2367A401EF82B5C00196D3D /* HLUIConfiguration.m */,
+				F2D5CA141EFFC046001B4C1D /* HLUIConfigurationMacros.h */,
+				F2D5CA161F02AB65001B4C1D /* HLUICore.h */,
 				F2EC74CC1EFAA8ED00E12D96 /* HLUIHelper.h */,
 				F2EC74CD1EFAA8ED00E12D96 /* HLUIHelper.m */,
 			);
